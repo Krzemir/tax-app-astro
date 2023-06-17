@@ -53,7 +53,7 @@ const ExciseTaxCalculator = () => {
       </label>
       <button onClick={calculateTax}>Oblicz podatek</button>
       {error && <p className="error">{error}</p>}
-      {showTax && <p>Wartość podatku: {tax}</p>}
+      {showTax && <p>Wartość podatku: {tax} PLN</p>}
     </div>
   );
 };
