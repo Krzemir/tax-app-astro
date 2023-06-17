@@ -3,21 +3,21 @@ import styles from './TaxCalculator.module.scss';
 import '../styles/global.scss';
 
 const ExciseTaxCalculator = () => {
-  const [price, setPrice] = useState(0);
-  const [engineCapacity, setEngineCapacity] = useState(0);
+  const [price, setPrice] = useState('');
+  const [engineCapacity, setEngineCapacity] = useState('');
   const [engineType, setEngineType] = useState('');
   const [tax, setTax] = useState(0);
   const [error, setError] = useState('');
   const [showTax, setShowTax] = useState(false);
 
   const calculateTax = () => {
-    if (price <= 0 || (engineCapacity < 0 || (engineCapacity === 0 && engineType !== 'EV'))) {
+    if (price <= 0 || (engineCapacity < 0 || (engineCapacity === 0 && engineType !== 'EV')) || engineType === '') {
       setError('Proszę wprowadzić poprawne dane.');
       return;
     }
-
+  
     let taxRate = 0;
-
+  
     if (engineType === 'gasoline') {
       taxRate = engineCapacity <= 2000 ? 0.031 : 0.186;
     } else if (engineType === 'hybrid') {
@@ -25,11 +25,12 @@ const ExciseTaxCalculator = () => {
     } else if (engineType === 'EV') {
       taxRate = 0;
     }
-
+  
     setTax(Math.round(price * taxRate)); 
     setError('');
     setShowTax(true);
   };
+  
 
   return (
     <div id="calculator" className={styles.container}>
