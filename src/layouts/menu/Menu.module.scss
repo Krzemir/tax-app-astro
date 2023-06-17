@@ -1,3 +1,5 @@
+@import '../../styles/global';
+
 .nav {
   position: absolute;
   top: 0;
@@ -20,10 +22,10 @@
 }
 
 .navLink {
-  color: white;
+  color: $light-color;
   text-decoration: none;
 
   &:hover {
-    color: #ddd;
+    color: $hover-color;
   }
 }

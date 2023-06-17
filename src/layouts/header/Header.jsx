@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import styles from './Header.module.scss';
 
 const Header = () => {
@@ -11,18 +11,6 @@ const Header = () => {
     });
   };
 
-  useEffect(() => {
-    const headerElement = document.getElementById('header');
-    const onScroll = () => {
-      if (window.pageYOffset > headerElement.offsetHeight) {
-        headerElement.style.opacity = '0';
-      } else {
-        headerElement.style.opacity = '1';
-      }
-    };
-    window.addEventListener('scroll', onScroll);
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
 
   return (
     <header id="header" className={styles.header}>
