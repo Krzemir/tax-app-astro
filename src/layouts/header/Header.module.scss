@@ -1,0 +1,42 @@
+
+
+  .header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/header_tax_car.jpeg') no-repeat center center fixed; 
+    background-size: cover;
+    background-position: top;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  h1, h3 {
+    z-index: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+  .scrollIcon {
+    cursor: pointer;
+    animation: bounce 2s infinite;
+    margin-top: 50px;
+  }
+
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+
+  
+  
+  

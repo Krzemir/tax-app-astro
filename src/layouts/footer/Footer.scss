@@ -1,0 +1,34 @@
+.footer {
+  margin-top: 30px;
+  background-color: #333;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footer-link, .copy-right {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #ddd;
+    }
+  
+  }
+
+  .copy-right {
+    padding-top: 20px;
+  }
+}

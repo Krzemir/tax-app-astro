@@ -1,0 +1,29 @@
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 1000; 
+}
+
+.navList {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+
+.navItem {
+  margin-right: 20px;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    color: #ddd;
+  }
+}

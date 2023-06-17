@@ -1,0 +1,22 @@
+---
+import '../styles/global.scss';
+const { title } = Astro.props;
+import Footer from './footer/Footer.astro';
+---
+
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+	<slot />
+	<Footer />
+	</body>
+</html>
