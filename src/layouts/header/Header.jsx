@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <header id="header" className={styles.header}>
       <h1>Kalkulator podatku akcyzowego</h1>
-      <h3>Oblicz podatek akcyzowy od zakupu samochodu</h3>
+      <h2>Oblicz podatek akcyzowy od zakupu samochodu</h2>
       <div className={styles.scrollIcon} onClick={scrollToCalculator}>
         <i className="fas fa-arrow-down fa-2x"></i>
       </div>

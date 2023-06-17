@@ -8,10 +8,13 @@
   justify-content: center;
   align-items: center;
   color: $light-color;
-  background: 
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url('/images/header_tax_car.webp') no-repeat center center fixed,
-    url('/images/header_tax_car.jpeg') no-repeat center center fixed; 
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  url('/images/header_tax_car.webp'),
+  url('/images/header_tax_car.jpeg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   background-size: cover;
   background-position: top;
   animation: fadeIn 2s ease-in-out;
@@ -22,7 +25,7 @@
   100% { opacity: 1; }
 }
 
-h1, h3 {
+h1, h2 {
   z-index: 1;
   margin-left: 20px;
   margin-right: 20px;
