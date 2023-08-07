@@ -1,33 +1,9 @@
-# Astro Starter Kit: Minimal
+## Astro framework training app
+### Car tax calculator website
 
-```
-npm create astro@latest -- --template minimal
-```
+Project deployed on: https://dazzling-manatee-b8db98.netlify.app/ 
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
+<img src="https://lh3.googleusercontent.com/pw/AIL4fc_S0jK2CpVYlI6J32saw719rB6AErxSXMNXycSdlUnRdiklPiRmSyAeUn2QVlDViuvRn7ob9Kp24j5ELOGIJcyvliSyuXaBZPoCnJuabpieP2fnVxZ1wCwTWi_K2D90cxwETDNZhPZWVWvtgXGJCCH0jm4HoPYeY8TJeoa7eB-SpjMnwX-HMab9KT42QDSbSCk21qfHY46Qi9Tn18PjSoPOIFjHTf9wG9A7t7FSci3UWF83GZOBrzr-YGOJAewwXQ_g9a4_l7TWupV4hDUgvFX9y7ENs-KAqqRvvMPM5filEIoeybbNOQrbzdcI5rQA3vejCwGyi-LbDO1AdTxct5pVqJDo5NjG89LlRd_wclZ4lQ3TWG0IzyV6fnpMsmU9xLn6XR5gr1MZ8JHPm9BfxC5tmfLSh98hnrvSxgKK5Zd__7o45iuwQGOuJtmrG_msJJsAniKWUbLOf8RfPQwcpMgEfg8IzXjeTX0QREJzvDNR5wHD2qkrlxtdd80xtUKDy_tx8vnG2lACZDwqVp-Rw6TVDJW1AJx23jrt7xQ5AmsjONUzfKMOUJkn_LCErMKzp4GNnrSLt8M1CxSyeCMr_QJs-rsSo-glxCFQ1VT6AKoqoJT-n-CVRXhLVHu0QvnZjFlyNh6dokg_dRKl93YD6wfhhjt7W9_lb4Vw0cPiH3wvzB38es8_qLJQZHRFH4M7Obe3celqxJ1zpjdwBI_75Eo84nBNh7CUz0A0WNmSrP98EBybrbN5jzOQ33sB3PKstOVaT5NsZm3a1JXPM82PWBrzp4pAlHzLTnUZhNPhrUu787V0LrLAZQOqckCqmF_t3m9SDFooxuE_pEeYiST1U_T6co64cKNKEiIZTIIJ_2yiI1oWO-NV1lYa-Jj0727XQ11my4v6OFMLa-jbaNFDnUpEhQ6ABk_MZssOuBqvdr-kVxw3xLADnwNPVfCn=w468-h640-s-no?authuser=1" />
 
 ## 🧞 Commands
 
@@ -42,6 +18,4 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
